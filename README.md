@@ -1,2 +1,1 @@
-# Meu currículo online
-Projeto em desenvolvimento
+Quem é João Paulo Paes?

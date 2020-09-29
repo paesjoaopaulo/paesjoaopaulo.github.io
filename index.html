@@ -1,40 +1,368 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 
 <head>
+    <meta author="João Paulo Paes">
+    <meta description="Currículo online do desenvolvedor web João Paulo Paes">
+    <meta keywords="programador, curriculo online, utfpr, joao paulo paes, desenvolvimento web">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>João Paulo Paes</title>
-    <link type="text/css" href="/assets/css/bootstrap.css" rel="stylesheet">
-    <link type="text/css" href="/assets/css/app.css" rel="stylesheet">
+    <title>João Paulo Paes | Desenvolvedor Web</title>
+
+    <link rel="stylesheet" href="assets/lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/lib/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <script src="assets/lib/popper.min.js"></script>
+    <script src="assets/lib/jquery-3.2.1.min.js"></script>
+    <script src="assets/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-60004421-5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments) };
+        gtag('js', new Date());
+
+        gtag('config', 'UA-60004421-5');
+    </script>
+
 </head>
 
 <body>
+    <div id="loading" style="display: block;"></div>
+    <div class="container" style="display: none;">
+        <div class="row full-heigth">
+            <div class="col-md-4 bg-color-primary pad-20">
+                <h1>JOÃO PAULO<span class="paes-title">PAES</span></h1>
+                <p class="info"><i class="fa fa-whatsapp fa-lg"></i> <a href="tel:+5543991882312"> (43) 99188-2312</a></p>
+                <p class="info"><i class="fa fa-envelope-o fa-lg"></i> joaopaulopaez@gmail.com</p>
+                <p class="info"><i class="fa fa-linkedin fa-lg"></i> <a href="https://linkedin.com/in/joaopaulopaez">/joaopaulopaez</a></p>
+                <p class="info"><i class="fa fa-github fa-lg"></i> <a href="https://github.com/paesjoaopaulo">/paesjoaopaulo</a></p>
+            </div>
+            <div class="col-md-8 bg-color-secondary pad-20">
+                <div class="row">
+                    <h3>SOBRE MIM</h3>
+                    <p>Tenho 22 anos, sou brasileiro e solteiro. Curioso na área de desenvolvimento web desde 2008, quando
+                        comecei um curso de web design na minha cidade natal (Palmital/SP), o que me incentivou tentar
+                        reproduzir os layouts.</p>
+                    <p>Estou estagiário há dois anos no setor de desenvolvimento web na UTFPR. Nesse período adquiri uma boa
+                        experiência que me preparou para enfrentar novos desafios na carreira.</p>
+                    <p>Tenho muito interesse na área de programação para web, por isso sempre busco me atualizar para aperfeiçoar os meus conhecimentos.</p>
+                </div>
+                <div class="row">
+                    <h3>FORMAÇÃO</h3>
+                    <ul>
+                        <li>
+                            <strong>Engenharia de Software (2015 - 2019) <span class="badge badge-secondary">7º semestre</span></strong>
+                            <br />Universidade Tecnológica Federal do Paraná
+                        </li>
+                        <li>
+                            <strong>Técnico em Informática para Internet (2013 - 2014)</strong>
+                            <br />Etec Prof. Mário Antônio Verza
+                        </li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <h3>EXPERIÊNCIA</h3>
+                    <ul>
+                        <li>
+                            <p>
+                                <strong>Estagiário</strong> (de abril/2016 até o momento)
+                                <br> Universidade Tecnológica Federal do Paraná
+                                <br>
+                                <span class="info-fade">
+                                    Desenvolvimento, manutenção e suporte de aplicações web para uso da comunidade acadêmica.
+                                    <br>
+                                    <a target="new" href="http://intranet.cp.utfpr.edu.br/">intranet.cp.utfpr.edu.br</a>
+                                    <br>
+                                    <a target="new" href="http://eventos.cp.utfpr.edu.br/">eventos.cp.utfpr.edu.br</a>
+                                    <br>
+                                    <a target="new" href="http://sistemas.cp.utfpr.edu.br/">sistemas.cp.utfpr.edu.br</a>
+                                    <br>
+                                    <a target="new" href="http://pdti.cp.utfpr.edu.br/">pdti.cp.utfpr.edu.br</a>
+                                    <br>
+                                </span>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <strong>Desenvolvedor (freelance)</strong> (de outubro/2016 a abril/2017)
+                                <br> Associação dos Servidores da UTFPR Cornélio Procópio (ASSUTEF)
+                                <br><span class="info-fade">Análise, projeto, desenvolvimento e implantação do sistema de controle de financeiro (<a target="new" href="http://siconf.assutefcp.com.br/">siconf.assutefcp.com.br</a>)</span>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <h3>HABILIDADES</h3>
 
-    <div class="container">
-        <div class="row">
-            <div class="head">
-                <img class="rounded rounded-circle" src="/assets/images/rosto.jpg" width="300px" alt="Rosto do meliante">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-                <h1>Olá!</h1>
-            </div>
-            <div class="col-md-4">
-                <h1>Olá!</h1>
-            </div>
-            <div class="col-md-4">
-                <h1>Olá!</h1>
+                    <div class="col-md-6">
+                        <h4>Front-end</h4>
+                        <table>
+                            <tr>
+                                <td>HTML</td>
+                                <td>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star-o yellow"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>CSS</td>
+                                <td>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star-o yellow"></i>
+                                    <i class="fa fa-star-o yellow"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>JavaScript</td>
+                                <td>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>JQuery</td>
+                                <td>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Twitter Bootstrap</td>
+                                <td>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star-o yellow"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>ReactJS</td>
+                                <td>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star-o yellow"></i>
+                                    <i class="fa fa-star-o yellow"></i>
+                                    <i class="fa fa-star-o yellow"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>VueJS</td>
+                                <td>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star-o yellow"></i>
+                                    <i class="fa fa-star-o yellow"></i>
+                                    <i class="fa fa-star-o yellow"></i>
+                                    <i class="fa fa-star-o yellow"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Angular</td>
+                                <td>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star-o yellow"></i>
+                                    <i class="fa fa-star-o yellow"></i>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="col-md-6">
+                        <h4>Back-end</h4>
+                        <table>
+                            <tr>
+                                <td>PHP</td>
+                                <td>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Laravel Framework</td>
+                                <td>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star-o yellow"></i>
+                                    <i class="fa fa-star-o yellow"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Propel ORM</td>
+                                <td>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star-o yellow"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>NodeJS</td>
+                                <td>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star-o yellow"></i>
+                                    <i class="fa fa-star-o yellow"></i>
+                                    <i class="fa fa-star-o yellow"></i>
+                                    <i class="fa fa-star-o yellow"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>PostgreSQL</td>
+                                <td>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star-o yellow"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>MySQL</td>
+                                <td>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-md-6">
+                        <h4>OS</h4>
+                        <table>
+                            <tr>
+                                <td>Ubuntu</td>
+                                <td>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Debian</td>
+                                <td>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star-o yellow"></i>
+                                    <i class="fa fa-star-o yellow"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Windows</td>
+                                <td>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star-o yellow"></i>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Ferramentas e Serviços</h4>
+                        <table>
+                            <tr>
+                                <td>PagSeguro API</td>
+                                <td>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star-o yellow"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Composer</td>
+                                <td>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star-o yellow"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>NPM/Yarn</td>
+                                <td>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star-o yellow"></i>
+                                    <i class="fa fa-star-o yellow"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Git</td>
+                                <td>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star-o yellow"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Trello</td>
+                                <td>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>WordPress</td>
+                                <td>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star-o yellow"></i>
+                                    <i class="fa fa-star-o yellow"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Codeception</td>
+                                <td>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star yellow"></i>
+                                    <i class="fa fa-star-o yellow"></i>
+                                    <i class="fa fa-star-o yellow"></i>
+                                    <i class="fa fa-star-o yellow"></i>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-
-    <script src="/assets/js/jquery-3.3.1.min.js"></script>
-    <script src="/assets/js/popper.min.js"></script>
-    <script src="/assets/js/bootstrap.min.js"></script>
-    <script src="/assets/js/app.js"></script>
 </body>
 
 </html>

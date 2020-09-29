@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700');
+body {
+    font-family: Oswald, sans-serif;
+    background-color: #FFFFFF;
+    background: linear-gradient(to right, #00AEFF 0%, #00AEFF 50%, #fff 50%, #fff 100%);    
+}
+
+#loading {
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+    z-index: 9999;
+
+    background-image: url('../images/loading.gif');
+    background-size: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.info {
+    font-size: 14px;
+    line-height: 1em;
+}
+h3 {
+    list-style-type: circle;
+    width: 100%;
+    color: #00AEFF;
+}
+.full-heigth {
+    height: 100%;
+}
+.bg-color-primary {
+    background-color: #00AEFF;
+    color: #fff;
+}
+.bg-color-secondary {
+    color: #000;
+    background-color: #fff;
+}
+.pad-20 {
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    margin: 20px auto;    
+}
+.info a,.info a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+.info-fade {
+    font-size: 14px;
+    color: #333;
+}
+.paes-title {
+    display: block;
+    font-size: 96px;
+    font-weight: bold;
+    text-align: center;
+    color: #000;
+    line-height: 80px;
+}
+.yellow {
+    color: #FFAE00;
+}
+table td:first-child {
+    column-width: 120px;
+}
+@media print {
+    body {
+        color: #000;
+    }
+    .yellow {
+        color: #FFAE00;
+    }
+}
